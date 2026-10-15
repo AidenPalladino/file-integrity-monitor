@@ -48,7 +48,8 @@ Type `1` to save a baseline, make some changes to the files, then run it again a
 
 ### 1. Baseline created, no changes
 
-![Baseline and clean check](screenshot-baseline.png)
+<img width="472" height="112" alt="screenshot-baseline" src="https://github.com/user-attachments/assets/dc0a3eb7-5a60-459a-b888-19946717aa56" />
+
 
 ### 2. After simulating an attacker
 
@@ -58,14 +59,8 @@ To test it, I made three changes like an attacker might:
 - Deleted `budget.txt`
 - Created a new file, `suspicious_file.txt`
 
-![Tampering detected](screenshot-tampered.png)
+<img width="938" height="130" alt="screenshot-tampered" src="https://github.com/user-attachments/assets/a5cf9c59-00fb-4fa4-ab31-026f4cd96a31" />
 
-```
-MODIFIED:      users.txt
-DELETED:       budget.txt
-NEW FILE:      suspicious_file.txt
-3 change(s) detected.
-```
 
 All three changes were caught.
 
